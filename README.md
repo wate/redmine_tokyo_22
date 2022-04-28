@@ -14,7 +14,7 @@ redmine.tokyo 第22回勉強会
 利用方法
 --------------------------
 
-1. 以下のリポジトリからデモ環境構構築キットを取得します
+1. 以下のリポジトリからデモ環境構構築キットを取得します  
    https://github.com/histudy/vagrant-redmine
 2. 本リポジトリから設定用ファイル一式を取得します
 3. `extra_vars.yml`をデモ環境構構築キット直下に移動します
@@ -59,7 +59,7 @@ ok: [default] =>
 補足事項
 --------------------------
 
-以下のプラグインはGithub等から直接取得できないため、
+以下のプラグインはGithub等から直接取得できないため、  
 ダウンローズ済みのファイルを同梱しています。
 
 * [Easy Gantt plugin](https://www.easyredmine.com/redmine-gantt-plugin)
