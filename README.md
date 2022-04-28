@@ -27,7 +27,7 @@ redmine.tokyo 第22回勉強会
 ```
 git clone https://github.com/histudy/vagrant-redmine.git
 cd vagrant-redmine
-git clone https://github.com/histudy/vagrant-redmine.git
+git clone https://github.com/wate/redmine_tokyo_22.git
 cp redmine_tokyo_22/extra_vars.yml ./
 vagrant up
 ```
