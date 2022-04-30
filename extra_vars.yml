@@ -60,8 +60,8 @@ redmine_plugins:
     directory: view_customize
   - name: message_customize
     repo: "https://github.com/ishikawa999/redmine_message_customize.git"
-    post_install_action: |
-      ln -sf {{ redmine_home }}/plugins/redmine_message_customize/35_change_load_order_locales.rb {{ redmine_home }}/config/initializers/35_change_load_order_locales.rb
+    # post_install_action: |
+    #   ln -sf {{ redmine_home }}/plugins/redmine_message_customize/35_change_load_order_locales.rb {{ redmine_home }}/config/initializers/35_change_load_order_locales.rb
   - name: default_custom_query
     repo: https://github.com/hidakatsuya/redmine_default_custom_query.git
   ## -------
