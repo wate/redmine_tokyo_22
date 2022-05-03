@@ -1064,7 +1064,7 @@ default_wiki_pages:
 # --------------------
 redmine_projects:
   - identifier: skeleton
-    name: プロジェクトテンプレート
+    name: テンプレート
     description: サブプロジェクトをコピーしプロジェクトを作成してください
     custom_fields:
       - name: Slack Channel
